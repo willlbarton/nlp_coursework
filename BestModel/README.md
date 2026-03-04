@@ -7,7 +7,7 @@
 ## Contents
 
 - **Model (HuggingFace format):** `config.json`, `tokenizer.json`, `tokenizer_config.json` are in this folder. **Weights** (`model.safetensors`, ~475 MB) exceed GitHub’s file size limit and are hosted on Google Drive:  
-  **[Download model.safetensors](PASTE_YOUR_DRIVE_LINK_HERE)**  
+  **[Download model.safetensors]https://drive.google.com/drive/folders/1D85SUdN6vqlg5Ii_fZFXKRvS3-r5Qgmz?usp=drive_link**  
   Place the downloaded `model.safetensors` in this folder, then load with:  
   `AutoModelForSequenceClassification.from_pretrained("BestModel")`, `AutoTokenizer.from_pretrained("BestModel")`.
 - **Code:** `02_training.ipynb` – full training pipeline (data load, tokenize, train baseline + class-weights, threshold tuning, dev.txt / test.txt generation).
