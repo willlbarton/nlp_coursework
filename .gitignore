@@ -81,6 +81,9 @@ target/
 # Model checkpoints (large; regenerate by re-running training)
 checkpoints/
 
+# BestModel weights (hosted on Drive; see BestModel/README.md)
+BestModel/model.safetensors
+
 # IPython
 profile_default/
 ipython_config.py
