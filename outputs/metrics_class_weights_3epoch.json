@@ -1,0 +1,4 @@
+{
+  "run": "class_weights_3epoch",
+  "dev_f1": 0.5022421524663677
+}
